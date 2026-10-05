@@ -1,0 +1,16 @@
+[general]
+import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
+
+[window]
+decorations = "buttonless"
+option_as_alt = "Both"   # makes Option work as Alt (needed for word-jumping, etc.)
+
+[font]
+size = 18.0
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+
+[terminal.shell]
+program = "/bin/bash"
+args = ["--login"]
